@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calcjava.js"></script>
+  </head>
+  <body>
+    <div><h1>Calculator</h1></div>
+    <div id="calc">
+    <form>
+    <input type="text" id="firstNum" value="0">
+      <br>
+      <br>
+      <span class="operation" id="addition" onclick="selectOperation(this)">+</span>
+      <span class="operation" id="multiplication" onclick="selectOperation(this)"> * </span>
+      <span class="operation" id="division" onclick="selectOperation(this)"> / </span>
+      <span class="operation" id="subtraction" onclick="selectOperation(this)"> - </span>
+      <br>
+      <span class="operation" id="cos" onclick="selectOperation(this)"> cos </span>
+      <span class="operation" id="sin" onclick="selectOperation(this)"> sin </span>
+
+      <span class="operation" id="arcsin" onclick="selectOperation(this)"> -sin </span>
+      <span class="operation" id="tan" onclick="selectOperation(this)"> tan </span>
+      <br>
+      <span class="operation" id="log" onclick="selectOperation(this)"> log </span>
+      <span class="operation" id="arccos" onclick="selectOperation(this)"> -cos </span>
+      <span class="operation" id="arctan" onclick="selectOperation(this)"> -tan </span>
+      <span class="operation" id="exponent" onclick="selectOperation(this)"> ^ </span>
+      <br>
+      <span class="operation" id="squared" onclick="selectOperation(this)"> ^2 </span>
+      <span class="operation" id="cubed" onclick="selectOperation(this)"> ^3 </span>
+      <span class="operation" id="cuberoot" onclick="selectOperation(this)"> 3srqt </span>
+      <span class="operation" id="sqrt" onclick="selectOperation(this)"> sqrt </span>
+      <br>
+      <br>
+      <input type="text" id="secondNum" value="0">
+      <br>
+    </form>
+    <br>
+  </div>
+    <button type="button" onclick="calculate()" id="end"> = </button>
+    <p id="Result"> Result </p>
+  </body>
+</html>

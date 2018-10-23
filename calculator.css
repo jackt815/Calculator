@@ -1,0 +1,19 @@
+.operation{
+  background-color: rgba(255,0,0,.2);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px 5px;
+}
+
+body {
+  text-align: center;
+  background-image: url(math.jpg);
+  color: white
+}
+
+h1 {
+  color: white;
+}
